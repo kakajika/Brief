@@ -2,7 +2,7 @@
 Simple access to UIView &amp; CALayer's frame written in Swift (Inspired from [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)).
 
 ## Install
-Just add [SimpleFramer.swift](blob/master/SimpleFramer/SimpleFramer.swift) into your project.
+Just add [SimpleFramer.swift](SimpleFramer/SimpleFramer.swift) into your project.
 
 ## Usage
 ```
