@@ -87,7 +87,7 @@
 		2A50342A1B67928500D619C2 = {
 			isa = PBXGroup;
 			children = (
-				2A5034361B67928500D619C2 /* SimpleFramer-iOS */,
+				2A5034361B67928500D619C2 /* SimpleFramer */,
 				2A5034431B67928500D619C2 /* SimpleFramerTests */,
 				2A5034641B6792F900D619C2 /* SimpleFramer-OSX */,
 				2A5034711B6792F900D619C2 /* SimpleFramer-OSXTests */,
@@ -107,14 +107,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A5034361B67928500D619C2 /* SimpleFramer-iOS */ = {
+		2A5034361B67928500D619C2 /* SimpleFramer */ = {
 			isa = PBXGroup;
 			children = (
 				2A5034391B67928500D619C2 /* SimpleFramer.h */,
 				2A5034501B6792A100D619C2 /* SimpleFramer.swift */,
 				2A5034371B67928500D619C2 /* Supporting Files */,
 			);
-			name = "SimpleFramer-iOS";
 			path = SimpleFramer;
 			sourceTree = "<group>";
 		};
@@ -199,9 +198,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A5034331B67928500D619C2 /* SimpleFramer-iOS */ = {
+		2A5034331B67928500D619C2 /* SimpleFramer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A50344A1B67928500D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramer-iOS" */;
+			buildConfigurationList = 2A50344A1B67928500D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramer" */;
 			buildPhases = (
 				2A50342F1B67928500D619C2 /* Sources */,
 				2A5034301B67928500D619C2 /* Frameworks */,
@@ -212,7 +211,7 @@
 			);
 			dependencies = (
 			);
-			name = "SimpleFramer-iOS";
+			name = SimpleFramer;
 			productName = SimpleFramer;
 			productReference = 2A5034341B67928500D619C2 /* SimpleFramer-iOS.framework */;
 			productType = "com.apple.product-type.framework";
@@ -306,7 +305,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A5034331B67928500D619C2 /* SimpleFramer-iOS */,
+				2A5034331B67928500D619C2 /* SimpleFramer */,
 				2A50343E1B67928500D619C2 /* SimpleFramerTests */,
 				2A5034621B6792F900D619C2 /* SimpleFramer-OSX */,
 				2A50346C1B6792F900D619C2 /* SimpleFramer-OSXTests */,
@@ -382,7 +381,7 @@
 /* Begin PBXTargetDependency section */
 		2A5034421B67928500D619C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A5034331B67928500D619C2 /* SimpleFramer-iOS */;
+			target = 2A5034331B67928500D619C2 /* SimpleFramer */;
 			targetProxy = 2A5034411B67928500D619C2 /* PBXContainerItemProxy */;
 		};
 		2A5034701B6792F900D619C2 /* PBXTargetDependency */ = {
@@ -637,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A50344A1B67928500D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramer-iOS" */ = {
+		2A50344A1B67928500D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A50344B1B67928500D619C2 /* Debug */,
