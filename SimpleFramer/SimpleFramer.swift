@@ -111,7 +111,33 @@ extension UIView {
     var middleY: CGFloat {
         get { return height * 0.5 }
     }
-    
+  
+  // MasksToBounds
+  
+  var masksToBounds: Bool {
+    get { return self.layer.masksToBounds }
+    set (new) { self.layer.masksToBounds = new}
+  }
+  
+  // Border
+  
+  var borderWidth: CGFloat {
+    get { return 0 }
+    set (new) { self.layer.borderWidth = new}
+  }
+  
+  var borderColor: UIColor {
+    get { return UIColor.clearColor() }
+    set (new) { self.layer.borderColor = new.CGColor}
+  }
+  
+  // CornerRadius
+  
+  var cornerRadius: CGFloat {
+    get { return 0 }
+    set (new) { self.layer.cornerRadius = new}
+  }
+
 }
 
 extension UIScrollView {
