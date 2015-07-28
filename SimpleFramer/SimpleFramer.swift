@@ -57,6 +57,40 @@ extension UIView {
         set(bottom) { self.frame = CGRectMake(left, bottom-height, width, height) }
     }
     
+    // Bounds
+    var boundsOrigin: CGPoint {
+        get { return self.bounds.origin }
+        set(boundsOrigin) { self.bounds = CGRect(origin: boundsOrigin, size: boundsSize) }
+    }
+    var boundsSize: CGSize {
+        get { return self.bounds.size }
+        set(boundsSize) { self.bounds = CGRect(origin: boundsOrigin, size: boundsSize) }
+    }
+    var boundsWidth: CGFloat {
+        get { return self.bounds.width }
+        set(boundsWidth) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsHeight: CGFloat {
+        get { return self.bounds.height }
+        set(boundsHeight) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsLeft: CGFloat {
+        get { return self.bounds.minX }
+        set(boundsLeft) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsTop: CGFloat {
+        get { return self.bounds.minY }
+        set(boundsTop) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsRight: CGFloat {
+        get { return self.bounds.maxX }
+        set(boundsRight) { self.bounds = CGRectMake(boundsRight-boundsWidth, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsBottom: CGFloat {
+        get { return self.bounds.maxY }
+        set(boundsBottom) { self.bounds = CGRectMake(boundsLeft, boundsBottom-boundsHeight, boundsWidth, boundsHeight) }
+    }
+    
     // Center Point
     var centerX: CGFloat {
         get { return self.center.x }
@@ -170,6 +204,60 @@ extension CALayer {
     var bottom: CGFloat {
         get { return self.frame.maxY }
         set(bottom) { self.frame = CGRectMake(left, bottom-height, width, height) }
+    }
+    
+    // Bounds
+    var boundsOrigin: CGPoint {
+        get { return self.bounds.origin }
+        set(boundsOrigin) { self.bounds = CGRect(origin: boundsOrigin, size: boundsSize) }
+    }
+    var boundsSize: CGSize {
+        get { return self.bounds.size }
+        set(boundsSize) { self.bounds = CGRect(origin: boundsOrigin, size: boundsSize) }
+    }
+    var boundsWidth: CGFloat {
+        get { return self.bounds.width }
+        set(boundsWidth) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsHeight: CGFloat {
+        get { return self.bounds.height }
+        set(boundsHeight) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsLeft: CGFloat {
+        get { return self.bounds.minX }
+        set(boundsLeft) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsTop: CGFloat {
+        get { return self.bounds.minY }
+        set(boundsTop) { self.bounds = CGRectMake(boundsLeft, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsRight: CGFloat {
+        get { return self.bounds.maxX }
+        set(boundsRight) { self.bounds = CGRectMake(boundsRight-boundsWidth, boundsTop, boundsWidth, boundsHeight) }
+    }
+    var boundsBottom: CGFloat {
+        get { return self.bounds.maxY }
+        set(boundsBottom) { self.bounds = CGRectMake(boundsLeft, boundsBottom-boundsHeight, boundsWidth, boundsHeight) }
+    }
+    
+    // Anchor Point
+    var anchorX: CGFloat {
+        get { return self.anchorPoint.x }
+        set(anchorX) { self.anchorPoint = CGPointMake(anchorX, anchorY) }
+    }
+    var anchorY: CGFloat {
+        get { return self.anchorPoint.y }
+        set(anchorY) { self.anchorPoint = CGPointMake(anchorX, anchorY) }
+    }
+    
+    // Position
+    var positionX: CGFloat {
+        get { return self.position.x }
+        set(positionX) { self.position = CGPointMake(positionX, positionY) }
+    }
+    var positionY: CGFloat {
+        get { return self.position.y }
+        set(positionY) { self.position = CGPointMake(positionX, positionY) }
     }
     
 }
