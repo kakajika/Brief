@@ -7,47 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A50343A1B67928500D619C2 /* SimpleFramer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5034391B67928500D619C2 /* SimpleFramer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A5034401B67928500D619C2 /* SimpleFramer-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5034341B67928500D619C2 /* SimpleFramer-iOS.framework */; };
-		2A5034471B67928500D619C2 /* SimpleFramerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5034461B67928500D619C2 /* SimpleFramerTests.swift */; };
 		2A5034511B6792A100D619C2 /* SimpleFramer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5034501B6792A100D619C2 /* SimpleFramer.swift */; };
 		2A5034681B6792F900D619C2 /* SimpleFramer-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5034671B6792F900D619C2 /* SimpleFramer-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A50346E1B6792F900D619C2 /* SimpleFramer-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5034631B6792F900D619C2 /* SimpleFramer-OSX.framework */; };
-		2A5034751B6792F900D619C2 /* SimpleFramer_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5034741B6792F900D619C2 /* SimpleFramer_OSXTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2A5034411B67928500D619C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A50342B1B67928500D619C2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A5034331B67928500D619C2;
-			remoteInfo = SimpleFramer;
-		};
-		2A50346F1B6792F900D619C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A50342B1B67928500D619C2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A5034621B6792F900D619C2;
-			remoteInfo = "SimpleFramer-OSX";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2A5034341B67928500D619C2 /* SimpleFramer-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SimpleFramer-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5034341B67928500D619C2 /* SimpleFramer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleFramer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5034381B67928500D619C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A5034391B67928500D619C2 /* SimpleFramer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFramer.h; sourceTree = "<group>"; };
-		2A50343F1B67928500D619C2 /* SimpleFramerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFramerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A5034451B67928500D619C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A5034461B67928500D619C2 /* SimpleFramerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFramerTests.swift; sourceTree = "<group>"; };
 		2A5034501B6792A100D619C2 /* SimpleFramer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleFramer.swift; sourceTree = "<group>"; };
 		2A50345D1B6792CB00D619C2 /* SimpleFramer-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimpleFramer-iOS copy-Info.plist"; path = "/Users/kaji/Desktop/iOS/SimpleFramer/SimpleFramer-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		2A5034631B6792F900D619C2 /* SimpleFramer-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SimpleFramer-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5034661B6792F900D619C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5034671B6792F900D619C2 /* SimpleFramer-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleFramer-OSX.h"; sourceTree = "<group>"; };
-		2A50346D1B6792F900D619C2 /* SimpleFramer-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleFramer-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A5034731B6792F900D619C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A5034741B6792F900D619C2 /* SimpleFramer_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFramer_OSXTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,26 +29,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A50343C1B67928500D619C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A5034401B67928500D619C2 /* SimpleFramer-iOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2A50345F1B6792F900D619C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A50346A1B6792F900D619C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A50346E1B6792F900D619C2 /* SimpleFramer-OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				2A5034361B67928500D619C2 /* SimpleFramer */,
-				2A5034431B67928500D619C2 /* SimpleFramerTests */,
 				2A5034641B6792F900D619C2 /* SimpleFramer-OSX */,
-				2A5034711B6792F900D619C2 /* SimpleFramer-OSXTests */,
 				2A5034351B67928500D619C2 /* Products */,
 				2A50345D1B6792CB00D619C2 /* SimpleFramer-iOS copy-Info.plist */,
 			);
@@ -99,10 +52,8 @@
 		2A5034351B67928500D619C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A5034341B67928500D619C2 /* SimpleFramer-iOS.framework */,
-				2A50343F1B67928500D619C2 /* SimpleFramerTests.xctest */,
+				2A5034341B67928500D619C2 /* SimpleFramer.framework */,
 				2A5034631B6792F900D619C2 /* SimpleFramer-OSX.framework */,
-				2A50346D1B6792F900D619C2 /* SimpleFramer-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +61,6 @@
 		2A5034361B67928500D619C2 /* SimpleFramer */ = {
 			isa = PBXGroup;
 			children = (
-				2A5034391B67928500D619C2 /* SimpleFramer.h */,
 				2A5034501B6792A100D619C2 /* SimpleFramer.swift */,
 				2A5034371B67928500D619C2 /* Supporting Files */,
 			);
@@ -121,23 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				2A5034381B67928500D619C2 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2A5034431B67928500D619C2 /* SimpleFramerTests */ = {
-			isa = PBXGroup;
-			children = (
-				2A5034461B67928500D619C2 /* SimpleFramerTests.swift */,
-				2A5034441B67928500D619C2 /* Supporting Files */,
-			);
-			path = SimpleFramerTests;
-			sourceTree = "<group>";
-		};
-		2A5034441B67928500D619C2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A5034451B67928500D619C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,23 +92,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2A5034711B6792F900D619C2 /* SimpleFramer-OSXTests */ = {
-			isa = PBXGroup;
-			children = (
-				2A5034741B6792F900D619C2 /* SimpleFramer_OSXTests.swift */,
-				2A5034721B6792F900D619C2 /* Supporting Files */,
-			);
-			path = "SimpleFramer-OSXTests";
-			sourceTree = "<group>";
-		};
-		2A5034721B6792F900D619C2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A5034731B6792F900D619C2 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -183,7 +99,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A50343A1B67928500D619C2 /* SimpleFramer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,26 +128,8 @@
 			);
 			name = SimpleFramer;
 			productName = SimpleFramer;
-			productReference = 2A5034341B67928500D619C2 /* SimpleFramer-iOS.framework */;
+			productReference = 2A5034341B67928500D619C2 /* SimpleFramer.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		2A50343E1B67928500D619C2 /* SimpleFramerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A50344D1B67928500D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramerTests" */;
-			buildPhases = (
-				2A50343B1B67928500D619C2 /* Sources */,
-				2A50343C1B67928500D619C2 /* Frameworks */,
-				2A50343D1B67928500D619C2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A5034421B67928500D619C2 /* PBXTargetDependency */,
-			);
-			name = SimpleFramerTests;
-			productName = SimpleFramerTests;
-			productReference = 2A50343F1B67928500D619C2 /* SimpleFramerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2A5034621B6792F900D619C2 /* SimpleFramer-OSX */ = {
 			isa = PBXNativeTarget;
@@ -252,24 +149,6 @@
 			productReference = 2A5034631B6792F900D619C2 /* SimpleFramer-OSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2A50346C1B6792F900D619C2 /* SimpleFramer-OSXTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A5034791B6792F900D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramer-OSXTests" */;
-			buildPhases = (
-				2A5034691B6792F900D619C2 /* Sources */,
-				2A50346A1B6792F900D619C2 /* Frameworks */,
-				2A50346B1B6792F900D619C2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A5034701B6792F900D619C2 /* PBXTargetDependency */,
-			);
-			name = "SimpleFramer-OSXTests";
-			productName = "SimpleFramer-OSXTests";
-			productReference = 2A50346D1B6792F900D619C2 /* SimpleFramer-OSXTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -282,13 +161,7 @@
 					2A5034331B67928500D619C2 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					2A50343E1B67928500D619C2 = {
-						CreatedOnToolsVersion = 6.4;
-					};
 					2A5034621B6792F900D619C2 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					2A50346C1B6792F900D619C2 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -306,9 +179,7 @@
 			projectRoot = "";
 			targets = (
 				2A5034331B67928500D619C2 /* SimpleFramer */,
-				2A50343E1B67928500D619C2 /* SimpleFramerTests */,
 				2A5034621B6792F900D619C2 /* SimpleFramer-OSX */,
-				2A50346C1B6792F900D619C2 /* SimpleFramer-OSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,21 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A50343D1B67928500D619C2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2A5034611B6792F900D619C2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A50346B1B6792F900D619C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,14 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A50343B1B67928500D619C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A5034471B67928500D619C2 /* SimpleFramerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2A50345E1B6792F900D619C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,28 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A5034691B6792F900D619C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A5034751B6792F900D619C2 /* SimpleFramer_OSXTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2A5034421B67928500D619C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2A5034331B67928500D619C2 /* SimpleFramer */;
-			targetProxy = 2A5034411B67928500D619C2 /* PBXContainerItemProxy */;
-		};
-		2A5034701B6792F900D619C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2A5034621B6792F900D619C2 /* SimpleFramer-OSX */;
-			targetProxy = 2A50346F1B6792F900D619C2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2A5034481B67928500D619C2 /* Debug */ = {
@@ -514,36 +342,6 @@
 			};
 			name = Release;
 		};
-		2A50344E1B67928500D619C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SimpleFramerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2A50344F1B67928500D619C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SimpleFramerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		2A5034771B6792F900D619C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,43 +385,6 @@
 			};
 			name = Release;
 		};
-		2A50347A1B6792F900D619C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SimpleFramer-OSXTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		2A50347B1B6792F900D619C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SimpleFramer-OSXTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -643,14 +404,7 @@
 				2A50344C1B67928500D619C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		2A50344D1B67928500D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A50344E1B67928500D619C2 /* Debug */,
-				2A50344F1B67928500D619C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5034761B6792F900D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramer-OSX" */ = {
 			isa = XCConfigurationList;
@@ -659,14 +413,7 @@
 				2A5034781B6792F900D619C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		2A5034791B6792F900D619C2 /* Build configuration list for PBXNativeTarget "SimpleFramer-OSXTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A50347A1B6792F900D619C2 /* Debug */,
-				2A50347B1B6792F900D619C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
