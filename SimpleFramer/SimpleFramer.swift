@@ -67,6 +67,17 @@ extension UIView {
         set(centerY) { self.center = CGPointMake(centerX, centerY) }
     }
     
+    // Middle Point
+    var middlePoint: CGPoint {
+        get { return CGPointMake(middleX, middleY) }
+    }
+    var middleX: CGFloat {
+        get { return width * 0.5 }
+    }
+    var middleY: CGFloat {
+        get { return height * 0.5 }
+    }
+    
 }
 
 extension UIScrollView {
