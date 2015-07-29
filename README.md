@@ -1,4 +1,8 @@
 # SimpleFramer.swift
+
+![swift](https://img.shields.io/badge/swift-1.2-blue.svg)
+![platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)
+
 Simple access to UIView &amp; CALayer's frame written in Swift (Inspired from [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)).
 
 ## Install
