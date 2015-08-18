@@ -10,13 +10,13 @@ import UIKit
 extension UIView {
     
     // Frame
-    var origin: CGPoint {
+    var frameOrigin: CGPoint {
         get { return self.frame.origin }
-        set(origin) { self.frame = CGRect(origin: origin, size: size) }
+        set(frameOrigin) { self.frame = CGRect(origin: frameOrigin, size: frameSize) }
     }
-    var size: CGSize {
+    var frameSize: CGSize {
         get { return self.frame.size }
-        set(size) { self.frame = CGRect(origin: origin, size: size) }
+        set(frameSize) { self.frame = CGRect(origin: frameOrigin, size: frameSize) }
     }
     
     // Frame Origin
@@ -159,13 +159,13 @@ extension UIScrollView {
 extension CALayer {
     
     // Frame
-    var origin: CGPoint {
+    var frameOrigin: CGPoint {
         get { return self.frame.origin }
-        set(origin) { self.frame = CGRect(origin: origin, size: size) }
+        set(frameOrigin) { self.frame = CGRect(origin: frameOrigin, size: frameSize) }
     }
-    var size: CGSize {
+    var frameSize: CGSize {
         get { return self.frame.size }
-        set(size) { self.frame = CGRect(origin: origin, size: size) }
+        set(frameSize) { self.frame = CGRect(origin: frameOrigin, size: frameSize) }
     }
     
     // Frame Origin

@@ -25,8 +25,8 @@ view.width = 200.0
 
 Property | Type | Аvailability
 --- | --- | ---
-`origin` | `CGPoint` | *get/set*
-`size` | `CGSize` | *get/set*
+`frameOrigin` | `CGPoint` | *get/set*
+`frameSize` | `CGSize` | *get/set*
 `x`, `y` | `CGFloat` | *get/set*
 `width`, `height` | `CGFloat` | *get/set*
 `top`, `left`, `bottom`, `right` | `CGFloat` | *get/set*
