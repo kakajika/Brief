@@ -1,12 +1,12 @@
-# SimpleFramer.swift
+# Brief
 
 [![](http://img.shields.io/badge/iOS-7.0%2B-blue.svg)]() 
 [![](http://img.shields.io/badge/Swift-1.2-blue.svg)]()
 
-Simple access to UIView &amp; CALayer's frame written in Swift (Inspired from [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)).
+Easy access to UIView &amp; CALayer's layout written in Swift (Inspired from [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)).
 
 ## Install
-Just add [SimpleFramer.swift](SimpleFramer/SimpleFramer.swift) into your project.
+Just add [Brief.swift](Brief/Brief.swift) into your project.
 
 ## Usage
 ```
