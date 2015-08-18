@@ -1,8 +1,8 @@
 //
-//  SimpleFramer.swift
+//  Brief.swift
 //
 //  Created by kakajika on 2015/06/03.
-//  Copyright (c) 2015年 INFOCITY. All rights reserved.
+//  Copyright (c) 2015 INFOCITY, Inc. All rights reserved.
 //
 
 import UIKit
