@@ -57,15 +57,15 @@ Property | Type | Аvailability
 Following properties are useless in Swift and removed.
 
 - `UIView`
--- `frameOrigin`, `frameSize`
--- `centerX`, `centerY`
--- `middlePoint`, `middleX`, `middleY`
+    - `frameOrigin`, `frameSize`
+    - `centerX`, `centerY`
+    - `middlePoint`, `middleX`, `middleY`
 - `UIScrollView`
--- All properties
+    - All properties
 - `CALayer`
--- `frameOrigin`, `frameSize`
--- `anchorX`, `anchorY`
--- `positionX`, `positionY`
+    - `frameOrigin`, `frameSize`
+    - `anchorX`, `anchorY`
+    - `positionX`, `positionY`
 
 ## ToDo
 - Support for OSX
