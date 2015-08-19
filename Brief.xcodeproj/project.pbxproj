@@ -10,16 +10,18 @@
 		20E170A91B8389A900B7811E /* Brief.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E170A81B8389A900B7811E /* Brief.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20E170C91B8389F000B7811E /* Brief-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E170C81B8389F000B7811E /* Brief-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20E170DE1B838ACA00B7811E /* Brief.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E170DD1B838ACA00B7811E /* Brief.swift */; };
+		20E1710E1B8547DD00B7811E /* Brief-OSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E1710D1B8547DD00B7811E /* Brief-OSX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20E170A31B8389A900B7811E /* Brief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Brief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E170A71B8389A900B7811E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E170A81B8389A900B7811E /* Brief.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Brief.h; sourceTree = "<group>"; };
-		20E170C41B8389F000B7811E /* Brief-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Brief-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E170C41B8389F000B7811E /* Brief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Brief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E170C71B8389F000B7811E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E170C81B8389F000B7811E /* Brief-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brief-OSX.h"; sourceTree = "<group>"; };
 		20E170DD1B838ACA00B7811E /* Brief.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brief.swift; sourceTree = "<group>"; };
+		20E1710D1B8547DD00B7811E /* Brief-OSX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Brief-OSX.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				20E170A31B8389A900B7811E /* Brief.framework */,
-				20E170C41B8389F000B7811E /* Brief-OSX.framework */,
+				20E170C41B8389F000B7811E /* Brief.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				20E170C81B8389F000B7811E /* Brief-OSX.h */,
+				20E1710D1B8547DD00B7811E /* Brief-OSX.swift */,
 				20E170C61B8389F000B7811E /* Supporting Files */,
 			);
 			path = "Brief-OSX";
@@ -148,7 +151,7 @@
 			);
 			name = "Brief-OSX";
 			productName = "Brief-OSX";
-			productReference = 20E170C41B8389F000B7811E /* Brief-OSX.framework */;
+			productReference = 20E170C41B8389F000B7811E /* Brief.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E1710E1B8547DD00B7811E /* Brief-OSX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +351,7 @@
 		20E170D81B8389F000B7811E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -362,15 +367,17 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Brief;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		20E170D91B8389F000B7811E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -381,7 +388,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Brief;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
