@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20E170A91B8389A900B7811E /* Brief.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E170A81B8389A900B7811E /* Brief.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20E170C91B8389F000B7811E /* Brief-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E170C81B8389F000B7811E /* Brief-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20E170DE1B838ACA00B7811E /* Brief.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E170DD1B838ACA00B7811E /* Brief.swift */; };
 		20E1710E1B8547DD00B7811E /* Brief-OSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E1710D1B8547DD00B7811E /* Brief-OSX.swift */; };
 /* End PBXBuildFile section */
@@ -16,10 +14,8 @@
 /* Begin PBXFileReference section */
 		20E170A31B8389A900B7811E /* Brief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Brief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E170A71B8389A900B7811E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20E170A81B8389A900B7811E /* Brief.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Brief.h; sourceTree = "<group>"; };
 		20E170C41B8389F000B7811E /* Brief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Brief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E170C71B8389F000B7811E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20E170C81B8389F000B7811E /* Brief-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brief-OSX.h"; sourceTree = "<group>"; };
 		20E170DD1B838ACA00B7811E /* Brief.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brief.swift; sourceTree = "<group>"; };
 		20E1710D1B8547DD00B7811E /* Brief-OSX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Brief-OSX.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +59,6 @@
 		20E170A51B8389A900B7811E /* Brief */ = {
 			isa = PBXGroup;
 			children = (
-				20E170A81B8389A900B7811E /* Brief.h */,
 				20E170DD1B838ACA00B7811E /* Brief.swift */,
 				20E170A61B8389A900B7811E /* Supporting Files */,
 			);
@@ -81,7 +76,6 @@
 		20E170C51B8389F000B7811E /* Brief-OSX */ = {
 			isa = PBXGroup;
 			children = (
-				20E170C81B8389F000B7811E /* Brief-OSX.h */,
 				20E1710D1B8547DD00B7811E /* Brief-OSX.swift */,
 				20E170C61B8389F000B7811E /* Supporting Files */,
 			);
@@ -103,7 +97,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E170A91B8389A900B7811E /* Brief.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +104,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E170C91B8389F000B7811E /* Brief-OSX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
