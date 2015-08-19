@@ -44,7 +44,7 @@ extension UIView {
     }
     public var bottom: CGFloat {
         get { return self.frame.maxY }
-        set(bottom) { self.frame.origin.y = bottom - max(width, 0.0) }
+        set(bottom) { self.frame.origin.y = bottom - max(height, 0.0) }
     }
     
     // Bounds
@@ -114,7 +114,7 @@ extension CALayer {
     }
     public var bottom: CGFloat {
         get { return self.frame.maxY }
-        set(bottom) { self.frame.origin.y = bottom - max(width, 0.0) }
+        set(bottom) { self.frame.origin.y = bottom - max(height, 0.0) }
     }
     
     // Bounds
