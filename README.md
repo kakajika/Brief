@@ -1,7 +1,9 @@
 # Brief
 
-[![](http://img.shields.io/badge/iOS-7.0%2B-blue.svg)]() 
-[![](http://img.shields.io/badge/Swift-1.2-blue.svg)]()
+[![](https://img.shields.io/badge/iOS-7.0%2B-blue.svg)]() 
+[![](https://img.shields.io/badge/Swift-1.2-blue.svg)]()
+[![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg)](https://github.com/CocoaPods/CocoaPods) 
+[![](https://img.shields.io/badge/license-Apache%202.0-lightgrey.svg)]()
 
 Easy access to UIView &amp; CALayer's layout written in Swift (Inspired from [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)).
 
@@ -56,16 +58,18 @@ Property | Type | Аvailability
 
 Following properties are useless in Swift and removed.
 
-- `UIView`
-    - `frameOrigin`, `frameSize`
-    - `centerX`, `centerY`
-    - `middlePoint`, `middleX`, `middleY`
-- `UIScrollView`
-    - All properties
-- `CALayer`
-    - `frameOrigin`, `frameSize`
-    - `anchorX`, `anchorY`
-    - `positionX`, `positionY`
+`UIView`
+- `frameOrigin`, `frameSize`
+- `centerX`, `centerY`
+- `middlePoint`, `middleX`, `middleY`
+
+`UIScrollView`
+- All properties
+
+`CALayer`
+- `frameOrigin`, `frameSize`
+- `anchorX`, `anchorY`
+- `positionX`, `positionY`
 
 ## ToDo
 - Support for OSX
