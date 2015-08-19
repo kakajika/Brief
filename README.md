@@ -1,6 +1,7 @@
 # Brief
 
 [![](https://img.shields.io/badge/iOS-7.0%2B-blue.svg)]() 
+[![](http://img.shields.io/badge/OS%20X-10.10%2B-blue.svg)]() 
 [![](https://img.shields.io/badge/Swift-1.2-blue.svg)]()
 [![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg)](https://github.com/CocoaPods/CocoaPods) 
 [![](https://img.shields.io/badge/license-Apache%202.0-lightgrey.svg)]()
