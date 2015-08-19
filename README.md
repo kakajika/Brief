@@ -16,9 +16,9 @@ Easy access to UIView &amp; CALayer's layout written in Swift (Inspired from [Fr
 $ pod 'Brief'
 ```
 
-### or Manually
+### Manually
 
-Just add [Brief.swift](Brief/Brief.swift) into your project.
+Just add [Brief.swift](Brief/Brief.swift) or [Brief-OSX.swift](Brief-OSX/Brief-OSX.swift) into your project.
 
 ## Usage
 ```
@@ -35,7 +35,7 @@ view.bottom = 100.0
 
 ## Supported Properties
 
-`UIView` properties:
+`UIView`/`NSView` properties:
 
 Property | Type | Аvailability
 --- | --- | ---
@@ -71,9 +71,6 @@ Following properties are useless in Swift and removed.
 - `frameOrigin`, `frameSize`
 - `anchorX`, `anchorY`
 - `positionX`, `positionY`
-
-## ToDo
-- Support for OSX
 
 ## License
 Apache 2.0 License
