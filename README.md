@@ -6,6 +6,15 @@
 Easy access to UIView &amp; CALayer's layout written in Swift (Inspired from [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)).
 
 ## Install
+
+### Cocoapods
+
+```
+$ pod 'Brief'
+```
+
+### or Manually
+
 Just add [Brief.swift](Brief/Brief.swift) into your project.
 
 ## Usage
