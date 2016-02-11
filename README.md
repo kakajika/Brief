@@ -10,7 +10,7 @@ Easy access to UIView &amp; CALayer's layout written in Swift (Inspired from [Fr
 
 ## Install
 
-### Cocoapods
+### CocoaPods
 
 ```
 $ pod 'Brief'
